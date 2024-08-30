@@ -1,0 +1,19 @@
+:root {
+    --background: #222129;
+    --foreground: #ffffff;
+    --accent: #a7c7e7;
+    --font-size: 1rem;
+    --line-height: 1.54rem;
+    --radius: 8px;
+}
+
+h1 {
+    font-size: calc(var(--font-size) * 2.5);
+    text-transform: none;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+}
+
+.footer {
+    display: none !important;
+}

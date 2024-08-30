@@ -1,0 +1,32 @@
+baseURL = "https://usp.liamrosenfeld.com"
+languageCode = "en-us"
+title = "Liam Rosenfeld - University Scholars Program"
+
+[[module.imports]]
+  path = 'github.com/panr/hugo-theme-terminal/v4'
+
+[menu]
+    [[menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/"
+        weight = 1
+    [[menu.main]]
+        identifier = "research"
+        name = "Research"
+        url = "/research/"
+        weight = 2
+    [[menu.main]]
+        identifier = "coursework"
+        name = "Coursework"
+        url = "/coursework/"
+        weight = 3
+    [[menu.main]]
+        identifier = "resume"
+        name = "Resume"
+        url = "https://liamrosenfeld.com/resume.pdf"
+        weight = 4
+
+[params]
+    centerTheme = true
+    logo.logoText = "Liam Rosenfeld"
